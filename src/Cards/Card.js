@@ -45,7 +45,7 @@ function Card({cards}){
 
     }
 
-    if (flipperDuh){
+    if (flipCard){
         return (
             <div className="card">
                 <h4>Card {cardIndex + 1} of {cards.length}</h4>
