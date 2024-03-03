@@ -22,7 +22,7 @@ function CardItem({card}){
               </div>
             
             <div className="d-flex justify-content-end " >
-              <Link to={`${location}/cards/${card.id}/edit`}>
+              <Link to={`${location.pathname}/cards/${card.id}/edit`}>
                 <button className="btn btn-secondary">Edit</button>              
               </Link>
               <button onClick={handleCardDelete} type="button" className="btn btn-danger">Delete</button>
